@@ -4,8 +4,8 @@ info:
   description: 'Primitive data types.'
   version: '2.5.0'
 servers:
-  - url: http://localhost/admin-portal/v1
-  - url: http://localhost/admin-portal/v2
+  - url: http://{hello}.localhost/admin-portal/v1
+  - url: http://{hello}.localhost/admin-portal/v2
 paths:
   /query:
     get:
